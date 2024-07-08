@@ -1,8 +1,13 @@
 Proje Adı: Product Scanner
+
 1. Proje Tanıtımı ve Planlama
-• Proje Hedefi: Kameradan veya galeriden edinilen resimden ürünün isim, fiyat ve 
+
+• Proje Hedefi: 
+Kameradan veya galeriden edinilen resimden ürünün isim, fiyat ve 
 barkod numarasının algılanarak ekrana yazdırılması
+
 • Kullanılacak Teknolojiler ve Paketler
+
 • Flutter
 • Google ML Kit 
 • flutter_riverpod
@@ -11,7 +16,9 @@ barkod numarasının algılanarak ekrana yazdırılması
 • ionicons
 • google_fonts
 • flutter_speed_dial
+
 • Proje Planı:
+
 • Geliştirme ortamının kurulması.
 • Google ML Kit'in projeye entegrasyonu.
 • Gerekli paketlerin projeye entegrasyonu.
@@ -19,26 +26,36 @@ barkod numarasının algılanarak ekrana yazdırılması
 • ML Kit kullanarak barkod tarama ve metin tanıma fonksiyonlarının 
 geliştirilmesi.
 • Taranan bilgilerin işlenmesi ve ekranda gösterilmesi.
-3. Geliştirme Ortamının Kurulumu ve Yapılandırılması
+
+2. Geliştirme Ortamının Kurulumu ve Yapılandırılması
+
 • Proje dizini oluşturuldu.
 • Gerekli paketler pubspec.yaml dosyasına eklendi.
 • models, providers, pages, constants klasörleri oluşuturuldu.
 • Kamera ve galeri erişim izinleri Android manifest dosyasına eklendi.
-4. Google ML Kit Entregrasyonu
+
+3. Google ML Kit Entregrasyonu
+
 • Dökümantasyon İncelenmesi
 • Google ML Kit'in barcode scanning ve text recognition özellikleri hakkında 
 pub.dev paketlerinin incelenmesi
 • Bu paketlerin kullanıldığı github repository incelenmesi
+
 • Barcode Scanning
+
 • Google ML Kit barcode scanning özelliğinin projeye entegrasyonu.
 • Kameradan veya galeriden alınan resimlerin taranması için gerekli 
 fonksiyonların geliştirilmesi.
 • Barkod numarasının okunması ve işlenmesi.
+
 • Text Recognition:
+
 • Google ML Kit text recognition özelliğinin projeye entegrasyonu.
 • Resimlerden metin tanıma ve işleme.
 • Taranan metinlerin fiyat ve ürün ismi olarak ayrıştırılması.
-5. Yapılan Çalışmalar
+
+4. Yapılan Çalışmalar
+   
 • Sayfaların genel yapısının tutulduğu main_page.dart sayfası oluşturuldu.
 • Bu sayfada stylish_bottom_bar paketinden bottom navigation bar tasarımı 
 yapılıdı.
@@ -47,11 +64,15 @@ yapılıdı.
 • Product model sınıfı oluşturuldu.
 • Image_provider.dart içerisinde resimi işleyecek olan fonksiyon yazıldı.
 • Ana Sayfada göseterilmek üzere product_item.dart tasarımı yapıldı.
-6. Karşılaşılan Sorunlar
+
+5. Karşılaşılan Sorunlar
+   
 • google_ml_kit_text_recognition paketinden yararlanılarak Text Recognition 
 yapmaya kalktığımızda henüz ML kit fiyat ile kilogram yazılarını ayırt edemiyor.
 • Taranan metinlerden hangisinin ürünün ismi olduğunun bulunması
-7. Geliştirilen Çözümler
+
+6. Geliştirilen Çözümler
+   
 • Flutterda yerleşik olan RegExp sınıfından yararlanıldı.
 • Ürün ismi, fiyatı ve barkod numarası için ayrı ayrı regular expression yazıldı.
 • Ürün isimleri genelde büyük harfler ile yazılır ve metinde KG LT gibi ibareler 
