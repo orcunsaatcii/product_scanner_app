@@ -84,3 +84,6 @@ düşebileceği durumlar için de bir alternatif regular expression yazıldı.
 • Ürün ismi de RegExp sınıfıda ilaveten “YERLİ” ve “ÜRETİM” kelimelerinin 
 bulunduğu kabul edilemeyen anahatar kelimeler adlı bir diziden kontrol edilerek 
 seçildi.
+
+
+https://github.com/orcunsaatcii/product_scanner_app/assets/116540911/8bc59b2b-b304-43a7-bf9a-bc2343b2a3f3
