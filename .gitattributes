@@ -1,0 +1,20 @@
+# Ignore CMake files
+*.cmake linguist-vendored
+
+# Ignore Gradle files
+*.gradle linguist-vendored
+
+# Ignore iOS platform-specific files
+ios/** linguist-vendored
+
+# Ignore Android platform-specific files
+android/** linguist-vendored
+
+# Ignore other build-related files
+*.lock linguist-vendored
+*.log linguist-vendored
+*.sh linguist-vendored
+
+# Ignore test files
+test/** linguist-vendored
+
