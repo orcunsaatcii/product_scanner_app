@@ -1,6 +1,8 @@
 # Ignore CMake files
 *.cmake linguist-detectable=false
 
+*.c++ linguist-detectable=false
+
 # Ignore Gradle files
 *.gradle linguist-vendored
 
